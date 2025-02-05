@@ -17,6 +17,7 @@ public:
 		return (T*)pComponent;
 	};
 
+
 	template <typename T>
 	T* GetComponent() {
 		for (auto& component : m_components)
